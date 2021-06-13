@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\DELL\AppData\Local\Temp\testng-eclipse--878865045\testng-customsuite.xml</span>
+                    <span>C:\Users\DELL\AppData\Local\Temp\testng-eclipse--200950116\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.cyient.test.InvalidUserTest" class="method navigator-link" hash-for-method="inValidCredentialExcelTest(123, 45, Incorrect ID or password.)">inValidCredentialExcelTest(123, 45, Incorrect ID or password.)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.cyient.test.InvalidUserTest" class="method navigator-link" hash-for-method="inValidCredentialDataProviderTest(123, 45, Incorrect ID or password.)">inValidCredentialDataProviderTest(123, 45, Incorrect ID or password.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.cyient.test.InvalidUserTest" class="method navigator-link" hash-for-method="inValidCredentialExcelTest(678, 90, Incorrect ID or password.)">inValidCredentialExcelTest(678, 90, Incorrect ID or password.)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.cyient.test.InvalidUserTest" class="method navigator-link" hash-for-method="inValidCredentialDataProviderTest(678, 90, Incorrect ID or password.)">inValidCredentialDataProviderTest(678, 90, Incorrect ID or password.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -132,17 +132,17 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="inValidCredentialExcelTest(123, 45, Incorrect ID or password.)">
-                  </a> <!-- inValidCredentialExcelTest(123, 45, Incorrect ID or password.) -->
-                  <span class="method-name">inValidCredentialExcelTest</span>
+                  <a name="inValidCredentialDataProviderTest(123, 45, Incorrect ID or password.)">
+                  </a> <!-- inValidCredentialDataProviderTest(123, 45, Incorrect ID or password.) -->
+                  <span class="method-name">inValidCredentialDataProviderTest</span>
                   <span class="parameters">(123, 45, Incorrect ID or password.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="inValidCredentialExcelTest(678, 90, Incorrect ID or password.)">
-                  </a> <!-- inValidCredentialExcelTest(678, 90, Incorrect ID or password.) -->
-                  <span class="method-name">inValidCredentialExcelTest</span>
+                  <a name="inValidCredentialDataProviderTest(678, 90, Incorrect ID or password.)">
+                  </a> <!-- inValidCredentialDataProviderTest(678, 90, Incorrect ID or password.) -->
+                  <span class="method-name">inValidCredentialDataProviderTest</span>
                   <span class="parameters">(678, 90, Incorrect ID or password.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -151,7 +151,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DELL\AppData\Local\Temp\testng-eclipse--878865045\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\DELL\AppData\Local\Temp\testng-eclipse--200950116\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -162,7 +162,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;com.cyient.test.InvalidUserTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;inValidCredentialExcelTest&quot;/&gt;
+          &lt;include name=&quot;inValidCredentialDataProviderTest&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.cyient.test.InvalidUserTest --&gt;
     &lt;/classes&gt;
@@ -206,13 +206,13 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'inValidCredentialExcelTest')
+data.setCell(0, 1, 'inValidCredentialDataProviderTest')
 data.setCell(0, 2, 'com.cyient.test.InvalidUserTest')
-data.setCell(0, 3, 4286);
+data.setCell(0, 3, 4187);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'inValidCredentialExcelTest')
+data.setCell(1, 1, 'inValidCredentialDataProviderTest')
 data.setCell(1, 2, 'com.cyient.test.InvalidUserTest')
-data.setCell(1, 3, 4249);
+data.setCell(1, 3, 4058);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -238,7 +238,7 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.cyient.test.InvalidUserTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">inValidCredentialDataProviderTest</span>
+                <span class="ignored-method-name">inValidCredentialExcelTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -256,24 +256,24 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">inValidCredentialExcelTest(123, 45, Incorrect ID or password.)</span>
-                <span class="method-start">5124 ms</span>
+                <span class="method-name">inValidCredentialDataProviderTest(678, 90, Incorrect ID or password.)</span>
+                <span class="method-start">4253 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">9416 ms</span>
+                <span class="method-start">8442 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">10182 ms</span>
+                <span class="method-start">9117 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">inValidCredentialExcelTest(678, 90, Incorrect ID or password.)</span>
-                <span class="method-start">14167 ms</span>
+                <span class="method-name">inValidCredentialDataProviderTest(123, 45, Incorrect ID or password.)</span>
+                <span class="method-start">12309 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">18418 ms</span>
+                <span class="method-start">16368 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

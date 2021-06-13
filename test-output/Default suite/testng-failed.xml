@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cyient.test.OrderPhoneTest">
+      <class name="com.cyient.test.InvalidUserTest">
         <methods>
-          <include name="placeOrderTest"/>
-          <include name="teardown"/>
+          <include name="inValidCredentialExcelTest"/>
           <include name="setUp"/>
+          <include name="takeSnapShot"/>
         </methods>
-      </class> <!-- com.cyient.test.OrderPhoneTest -->
+      </class> <!-- com.cyient.test.InvalidUserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
