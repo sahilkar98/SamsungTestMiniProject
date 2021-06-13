@@ -21,6 +21,7 @@ public class OrderPhoneTest extends WebDriverWrapper {
 
 		Assert.assertEquals(od.getTotalSavings(), "₹33000.00");
 		Assert.assertEquals(od.getDiscount(), "₹6000.00");
+
 	}
 
 }

@@ -10,8 +10,7 @@ import com.cyient.utilities.DataProviderUtils;
 public class InvalidUserTest extends WebDriverWrapper {
 
 	@Test(dataProvider = "inValidCredentialExcelData", dataProviderClass = DataProviderUtils.class)
-	public void inValidCredentialExcelTest(String username, String password, String expectedValue)
-			throws InterruptedException {
+	public void inValidCredentialExcelTest(String username, String password, String expectedValue) throws Exception {
 
 		LoginPage log = new LoginPage(driver);
 		log.clickOnLogin();
